@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a18bcc8637a2a2344b87fa429f98761f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a18bcc8637a2a2344b87fa429f98761f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a18bcc8637a2a2344b87fa429f98761f = L.map(
+                "map_a18bcc8637a2a2344b87fa429f98761f",
+                {
+                    center: [32.7607, -16.9595],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b3b2976e9997c649558c2e719ea79ace = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+            var marker_c65e6d78b5b837cf95a14f64370bba94 = L.marker(
+                [32.6471, -16.9245],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_a8a7e44b512428303702819df3f47ddf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbf93964d4726708fb864f3c6c5435da = $(`<div id="html_fbf93964d4726708fb864f3c6c5435da" style="width: 100.0%; height: 100.0%;">Madeira Panorâmico Hotel (Funchal)</div>`)[0];
+            popup_a8a7e44b512428303702819df3f47ddf.setContent(html_fbf93964d4726708fb864f3c6c5435da);
+        
+
+        marker_c65e6d78b5b837cf95a14f64370bba94.bindPopup(popup_a8a7e44b512428303702819df3f47ddf)
+        ;
+
+        
+    
+    
+            marker_c65e6d78b5b837cf95a14f64370bba94.bindTooltip(
+                `<div>
+                     Madeira Panorâmico Hotel (Funchal)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff2e7a7a559c5330250f31841cd9610 = L.marker(
+                [32.7372, -16.6995],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_5104074ec109ca0fe5ea40fe68be2809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b8971feaa13a24ef84a82089c84eb9d = $(`<div id="html_7b8971feaa13a24ef84a82089c84eb9d" style="width: 100.0%; height: 100.0%;">Ponta de São Lourenço</div>`)[0];
+            popup_5104074ec109ca0fe5ea40fe68be2809.setContent(html_7b8971feaa13a24ef84a82089c84eb9d);
+        
+
+        marker_1ff2e7a7a559c5330250f31841cd9610.bindPopup(popup_5104074ec109ca0fe5ea40fe68be2809)
+        ;
+
+        
+    
+    
+            marker_1ff2e7a7a559c5330250f31841cd9610.bindTooltip(
+                `<div>
+                     Ponta de São Lourenço
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ff5474e7a6039bd99c622585d34df8d = L.marker(
+                [32.7384, -16.9358],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_74712b2f637a3936cb824cda781a2659 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec52015d9744b92cb93e65d446e5c12d = $(`<div id="html_ec52015d9744b92cb93e65d446e5c12d" style="width: 100.0%; height: 100.0%;">PR1 Pico do Arieiro to Pico Ruivo</div>`)[0];
+            popup_74712b2f637a3936cb824cda781a2659.setContent(html_ec52015d9744b92cb93e65d446e5c12d);
+        
+
+        marker_9ff5474e7a6039bd99c622585d34df8d.bindPopup(popup_74712b2f637a3936cb824cda781a2659)
+        ;
+
+        
+    
+    
+            marker_9ff5474e7a6039bd99c622585d34df8d.bindTooltip(
+                `<div>
+                     PR1 Pico do Arieiro to Pico Ruivo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3701b0997dadedf344aee4e176e9c4fb = L.marker(
+                [32.7592, -16.8898],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_00fb7f9bfab91d72b91815279cc0acf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76996f4c2d7d5a32ce41a9e65fe27533 = $(`<div id="html_76996f4c2d7d5a32ce41a9e65fe27533" style="width: 100.0%; height: 100.0%;">25 Fontes (Ribeiro Frio)</div>`)[0];
+            popup_00fb7f9bfab91d72b91815279cc0acf0.setContent(html_76996f4c2d7d5a32ce41a9e65fe27533);
+        
+
+        marker_3701b0997dadedf344aee4e176e9c4fb.bindPopup(popup_00fb7f9bfab91d72b91815279cc0acf0)
+        ;
+
+        
+    
+    
+            marker_3701b0997dadedf344aee4e176e9c4fb.bindTooltip(
+                `<div>
+                     25 Fontes (Ribeiro Frio)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be56d4471433fc89edd48bf5d24fab5b = L.marker(
+                [32.8001, -17.0428],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_a12e7f39290531bf5b589da0be444035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e316c40452e09c62a060dd3fdbfd980c = $(`<div id="html_e316c40452e09c62a060dd3fdbfd980c" style="width: 100.0%; height: 100.0%;">São Vicente Caves</div>`)[0];
+            popup_a12e7f39290531bf5b589da0be444035.setContent(html_e316c40452e09c62a060dd3fdbfd980c);
+        
+
+        marker_be56d4471433fc89edd48bf5d24fab5b.bindPopup(popup_a12e7f39290531bf5b589da0be444035)
+        ;
+
+        
+    
+    
+            marker_be56d4471433fc89edd48bf5d24fab5b.bindTooltip(
+                `<div>
+                     São Vicente Caves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_540c906d63b38241bb55f2bf2317e398 = L.marker(
+                [32.8387, -16.9872],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_172de2759006334d6195d03d1b3e3d16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45ba89f1439400c800f176a41c418047 = $(`<div id="html_45ba89f1439400c800f176a41c418047" style="width: 100.0%; height: 100.0%;">Angel Waterfall (Boaventura)</div>`)[0];
+            popup_172de2759006334d6195d03d1b3e3d16.setContent(html_45ba89f1439400c800f176a41c418047);
+        
+
+        marker_540c906d63b38241bb55f2bf2317e398.bindPopup(popup_172de2759006334d6195d03d1b3e3d16)
+        ;
+
+        
+    
+    
+            marker_540c906d63b38241bb55f2bf2317e398.bindTooltip(
+                `<div>
+                     Angel Waterfall (Boaventura)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4ae245197bc19b6610dd19fffb2867e = L.marker(
+                [32.8168, -17.1051],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_d39cc4cd17c49d41a2599d0183a45a55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_885ffbf9d3ec63ab974a124d1598c611 = $(`<div id="html_885ffbf9d3ec63ab974a124d1598c611" style="width: 100.0%; height: 100.0%;">Seixal Beach</div>`)[0];
+            popup_d39cc4cd17c49d41a2599d0183a45a55.setContent(html_885ffbf9d3ec63ab974a124d1598c611);
+        
+
+        marker_d4ae245197bc19b6610dd19fffb2867e.bindPopup(popup_d39cc4cd17c49d41a2599d0183a45a55)
+        ;
+
+        
+    
+    
+            marker_d4ae245197bc19b6610dd19fffb2867e.bindTooltip(
+                `<div>
+                     Seixal Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aa1081840a49a1ef0d26e23d59f3514 = L.marker(
+                [32.8107, -17.1522],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_90360223c476c5dcf710d6de9ee4175a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69ff4cf6e436a2fe0402f1cc0e5d02e1 = $(`<div id="html_69ff4cf6e436a2fe0402f1cc0e5d02e1" style="width: 100.0%; height: 100.0%;">Fanal Forest</div>`)[0];
+            popup_90360223c476c5dcf710d6de9ee4175a.setContent(html_69ff4cf6e436a2fe0402f1cc0e5d02e1);
+        
+
+        marker_3aa1081840a49a1ef0d26e23d59f3514.bindPopup(popup_90360223c476c5dcf710d6de9ee4175a)
+        ;
+
+        
+    
+    
+            marker_3aa1081840a49a1ef0d26e23d59f3514.bindTooltip(
+                `<div>
+                     Fanal Forest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_154812dbe68291691620be446abf420d = L.marker(
+                [32.8676, -17.1708],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_cf58e351b8ec854a5be043a5122c5cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3f346e06045747311bd24459239120d = $(`<div id="html_b3f346e06045747311bd24459239120d" style="width: 100.0%; height: 100.0%;">Porto Moniz Natural Pools</div>`)[0];
+            popup_cf58e351b8ec854a5be043a5122c5cf3.setContent(html_b3f346e06045747311bd24459239120d);
+        
+
+        marker_154812dbe68291691620be446abf420d.bindPopup(popup_cf58e351b8ec854a5be043a5122c5cf3)
+        ;
+
+        
+    
+    
+            marker_154812dbe68291691620be446abf420d.bindTooltip(
+                `<div>
+                     Porto Moniz Natural Pools
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_939717597e12d1e1fa7d761b285dee45 = L.marker(
+                [32.6678, -16.9025],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_6edb2df019c19d56d196997d13b5f31f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eed4f29fdd8645c10dd6f70bd23f550 = $(`<div id="html_3eed4f29fdd8645c10dd6f70bd23f550" style="width: 100.0%; height: 100.0%;">Monte Palace Tropical Garden</div>`)[0];
+            popup_6edb2df019c19d56d196997d13b5f31f.setContent(html_3eed4f29fdd8645c10dd6f70bd23f550);
+        
+
+        marker_939717597e12d1e1fa7d761b285dee45.bindPopup(popup_6edb2df019c19d56d196997d13b5f31f)
+        ;
+
+        
+    
+    
+            marker_939717597e12d1e1fa7d761b285dee45.bindTooltip(
+                `<div>
+                     Monte Palace Tropical Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51837d6c5afe1cb1bf22c384a47a7b0d = L.marker(
+                [32.6454, -16.9025],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_cb3f24376a3de2c9b858fe4f1a42a3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5cbdb7cd67246361670b728a16a3c14 = $(`<div id="html_a5cbdb7cd67246361670b728a16a3c14" style="width: 100.0%; height: 100.0%;">Madeira Botanical Garden</div>`)[0];
+            popup_cb3f24376a3de2c9b858fe4f1a42a3a4.setContent(html_a5cbdb7cd67246361670b728a16a3c14);
+        
+
+        marker_51837d6c5afe1cb1bf22c384a47a7b0d.bindPopup(popup_cb3f24376a3de2c9b858fe4f1a42a3a4)
+        ;
+
+        
+    
+    
+            marker_51837d6c5afe1cb1bf22c384a47a7b0d.bindTooltip(
+                `<div>
+                     Madeira Botanical Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd4fd445021beefc27b691e9484710b8 = L.marker(
+                [32.7197, -17.1696],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_c0d2b962ed7e3529e14a71a16a47065d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6247b37024ae39cb636c78e37666146 = $(`<div id="html_d6247b37024ae39cb636c78e37666146" style="width: 100.0%; height: 100.0%;">Calheta Beach</div>`)[0];
+            popup_c0d2b962ed7e3529e14a71a16a47065d.setContent(html_d6247b37024ae39cb636c78e37666146);
+        
+
+        marker_fd4fd445021beefc27b691e9484710b8.bindPopup(popup_c0d2b962ed7e3529e14a71a16a47065d)
+        ;
+
+        
+    
+    
+            marker_fd4fd445021beefc27b691e9484710b8.bindTooltip(
+                `<div>
+                     Calheta Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_453f043624e2d6bb22a277bcc2133d51 = L.marker(
+                [32.8083, -17.253],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_b6ea162f5406a3fed1534a8cee623c7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8a1363b7c22b9d4ec1493944af04612 = $(`<div id="html_f8a1363b7c22b9d4ec1493944af04612" style="width: 100.0%; height: 100.0%;">Ponta do Pargo Lighthouse</div>`)[0];
+            popup_b6ea162f5406a3fed1534a8cee623c7e.setContent(html_f8a1363b7c22b9d4ec1493944af04612);
+        
+
+        marker_453f043624e2d6bb22a277bcc2133d51.bindPopup(popup_b6ea162f5406a3fed1534a8cee623c7e)
+        ;
+
+        
+    
+    
+            marker_453f043624e2d6bb22a277bcc2133d51.bindTooltip(
+                `<div>
+                     Ponta do Pargo Lighthouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e2d1bea03e85bc4608cfec1f9d4b963 = L.marker(
+                [32.6764, -17.0994],
+                {}
+            ).addTo(map_a18bcc8637a2a2344b87fa429f98761f);
+        
+    
+        var popup_3ebc1a0f80bf3082bb96f7482778c891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcc6bb72be97d91ff63857d856f2aa92 = $(`<div id="html_bcc6bb72be97d91ff63857d856f2aa92" style="width: 100.0%; height: 100.0%;">Ponta do Sol</div>`)[0];
+            popup_3ebc1a0f80bf3082bb96f7482778c891.setContent(html_bcc6bb72be97d91ff63857d856f2aa92);
+        
+
+        marker_6e2d1bea03e85bc4608cfec1f9d4b963.bindPopup(popup_3ebc1a0f80bf3082bb96f7482778c891)
+        ;
+
+        
+    
+    
+            marker_6e2d1bea03e85bc4608cfec1f9d4b963.bindTooltip(
+                `<div>
+                     Ponta do Sol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
